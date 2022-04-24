@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+.ctn{
+    width: 1640px;
+}
+.container{
+    width: 1440px;
+}
+@media(min-width:992px){
+    .header-bottom .work .container{
+        max-width: 1640px;
+    }
+}
+.header-top{
+    height: 59px;
+    background: #1e1e1e;
+}
+.header-top p{
+    text-transform: uppercase;
+}
+.header-bottom img{
+    margin-right: 16px;
+}
+.header-bottom h3{
+    text-transform: uppercase;
+}
+.header-bottom li{
+    margin-left: 34px;
+    text-transform: capitalize;
+}
+/*collection*/
+.collection{
+    background-image:url('img/shutterstock_546764419.png');
+    width: 100%;
+    height: 870px;
+    background-repeat: no-repeat;
+    background-position: ;
+    background-size: cover;
+    z-index: 1;
+}
+.collection{
+    padding-top: 100px;
+}
+.collection .line{
+    width: 89px;
+    height: 3px;
+    background: #1e1e1e;
+}
+.collection h2{
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.collection h3{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.collection button{
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+/*work*/
+.work-right .special-img{
+    height: 339px;
+}
+.work-right img{
+    width: 280px;
+    margin-right: 40px;
+}
+/*hinter*/
+.hinter{
+    background-image:url('img/eduardo-dutra-493420.png');
+    width: 100%;
+    height: 870px;
+    background-repeat: no-repeat;
+    background-position: ;
+    background-size: cover;
+    z-index: 1;
+}
+/*staff*/
+.staff img{
+    margin-right: 40px;
+}
+.special-img{
+    width: 290px;
+}
+/*footer*/
+footer{
+    background: #161616;
+    color: #fff;
+}
+footer h6{
+    text-transform: uppercase;
+    padding: 70px 0 22px 0;
+}
+footer a{
+    text-transform: capitalize;
+    padding-bottom: 21px;
+}
+footer a, footer p{
+    opacity: 0.5;
+}
+footer .footer-bor{
+    border: 1px solid #48c8fd;
+    margin: 16px 0 31px ;
+}
+footer .footer-icon i{
+    padding: 15px;
+    background: #222;
+    margin-right: 14px;
+}
+footer .footer-mid-bor{
+    border: 1px solid #2a2a2a;
+    margin-top: 35px;
+}
+footer .footer-bottom{
+    height: 76px;
+}
