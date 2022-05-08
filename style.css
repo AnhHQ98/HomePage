@@ -25,6 +25,9 @@ html{
 .header-top p{
     text-transform: uppercase;
 }
+.header-bottom{
+    height: 96px;
+}
 .header-bottom img{
     margin-right: 16px;
 }
@@ -46,12 +49,13 @@ html{
     z-index: 1;
 }
 .collection{
-    padding-top: 100px;
+    padding-top: 170px;
 }
 .collection .line{
-    width: 89px;
+    width: 88px;
     height: 3px;
     background: #1e1e1e;
+    margin-right: 26px;
 }
 .collection h2{
     font-size: 70px;
@@ -66,12 +70,15 @@ html{
     text-transform: uppercase;
 }
 /*work*/
-.work-right .special-img{
-    height: 339px;
+.work .left-img{
+    margin-top: -152px;  
 }
 .work-right img{
-    width: 280px;
+    width: px;
     margin-right: 40px;
+}
+.work-right h6, .staff h6{
+    margin-top: 25px;
 }
 /*hinter*/
 .hinter{
@@ -83,12 +90,66 @@ html{
     background-size: cover;
     z-index: 1;
 }
+.hinter .conders{
+    margin-top: 345px;
+    padding: 65px 0 0 69px;
+    width: 560px;
+    height: 195px;
+    background: #fff;
+}
+.hinter .conders .arrow{
+    width: 51px;
+    height: 1px;
+    background: #000;
+    margin-right: 17px;
+}
+.hinter .conder img{
+    width: 11px;
+}
 /*staff*/
+.staff{
+    padding-bottom: 400px;
+}
 .staff img{
     margin-right: 40px;
 }
 .special-img{
-    width: 290px;
+    padding: 35px;
+    background: #f1f1f1;
+    height: 385px;
+}
+/* seller */
+.seller .new{
+    margin-top: -150px;
+    padding: 150px;
+    background: #f1f1f1;
+}
+.seller .best{
+    margin-top: -340px;
+}
+.seller .img-bottom-left{
+    width: 500px;
+    height: 310px;
+    border: 10px solid #000;
+    padding-left: 100px;
+    margin-top: 270px;
+}
+.seller .img-bottom-left-inside{
+    height: 90px;
+    background: #fff;
+    top: 90px;
+    right: -215px;
+}
+.seller .img-bottom-right{
+    margin-left: 430px;
+}
+/* instagram */
+.instagram{
+    background-image: linear-gradient(to right, #dceef5, #f8dde3);
+    height: 393px;
+}
+.instagram img{
+    margin: 104px 0 38px 0;
 }
 /*footer*/
 footer{
